@@ -1,0 +1,4 @@
+SheetConnection sched("sched_project.xlsx");
+
+DayShift from SheetRead(sched,"DayShiftSet");
+a from SheetRead(sched,"Availability");
